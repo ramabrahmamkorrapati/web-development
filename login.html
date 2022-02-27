@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://images.pexels.com/photos/6445381/pexels-photo-6445381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-size: cover;
+        }
+        a:hover{
+     color: royalblue;
+        }
+      
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 30px;
+            
+        }
+        section{
+            text-align: center;
+            padding: 30px;
+        }
+    
+        #top{
+            padding-top: 10%;
+        }
+        h1{
+          font-weight: lighter;
+          text-align: center;
+          opacity: 0.7;
+        }
+        main{
+            background-color:white;
+            width: 350px;
+            margin-left: 37%;
+            margin-top: 8%;
+            padding:10px;
+           opacity: 0.3;
+            border-radius: 50px;
+        }
+        form{ 
+            opacity: 0.9;
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <section>
+                <a href="">HOME</a>
+                <a href="">CONTACTS</a>
+                <a href="">COLLECTIONS</a>
+                <a href="">ABOUT US</a>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <div id="top">
+        <h1>LOGIN FORM</h1>
+        </div>
+     <form action="welcome.html">
+        <label for="fname"> FIRST NAME</label><br>
+        <input type="text" id="fname" name="fname" required style="border: 1px solid rgb(3, 3, 3); border-radius: 15px; width: 180px; height:25px"><br><br>
+        <label for="lname"> LAST NAME</label><br>
+        <input type="text" id="lname" name="lname" required style="border: 1px solid rgb(12, 12, 12); border-radius: 15px; width: 180px; height:25px"><br><br>
+        <label>GENDER:</label>
+        <input type="radio" id="male" name="GENDER"value="male" required>
+        <label for="male">MALE</label>
+        <input type="radio" id="female" name="GENDER" value="female" required>
+        <label for="female">FEMALE</label><br><br>
+        <input type="submit" value="Submit" style="width: 80px; height: 30px; border-radius: 15px; border: 1px solid white; font-size: large; ">
+        <br><br>
+     </form>
+
+
+    </main>
+</body>
+</html>
